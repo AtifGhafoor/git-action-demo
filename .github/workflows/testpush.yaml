@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: hello-world
         run: echo "Hello World. This is my first workflow run"
-      -name: bteq-version
+      - name: bteq-version
         run: which bteq
