@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/atifghafoor/teradata-ttu:20 
+      image: ghcr.io/atifghafoor/teradata-ttu
     steps:
       - name: hello-world
         run: echo "Hello World. This is my first workflow run"
