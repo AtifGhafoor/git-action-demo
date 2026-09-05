@@ -1,0 +1,12 @@
+name: first-action
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/atifghafoor/teradata-ttu:20 
+    steps:
+      - name: hello-world
+        run: echo "Hello World. This is my first workflow run"
+      - name: bteq-version
+        run: which bteq
